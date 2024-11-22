@@ -11,6 +11,18 @@ Install these key packages: `tensorflow`,
 `tensorflow_datasets`, `tensorflow_hub`, `apache_beam`, `matplotlib`, `plotly` and `wandb`.
 (Must install `tensorflow` before `tensorflow-datasets` and `tensorflow_hub`)
 
+## Run Example RLDS Dataset Creation
+
+Before modifying the code to convert your own dataset, run the provided example dataset creation script to ensure
+everything is installed correctly. Run the following lines to create some dummy data and convert it to RLDS.
+```
+cd example_dataset
+python3 create_example_data.py
+tfds build
+```
+
+This should create a new dataset in `~/tensorflow_datasets/example_dataset`. Please verify that the example
+conversion worked before moving on.
 
 ## Converting your Own Dataset to RLDS
 
