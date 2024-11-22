@@ -21,6 +21,8 @@ python3 create_example_data.py
 tfds build
 ```
 
+oops you need to change the builder. 
+
 This should create a new dataset in `~/tensorflow_datasets/example_dataset`. Please verify that the example
 conversion worked before moving on.
 
