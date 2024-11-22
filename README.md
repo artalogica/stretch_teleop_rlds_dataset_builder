@@ -9,6 +9,7 @@ Activate the environment you used for the Stretch VR Teleoperation Toolkit.
 
 Install these key packages: `tensorflow`, 
 `tensorflow_datasets`, `tensorflow_hub`, `apache_beam`, `matplotlib`, `plotly` and `wandb`.
+(Must install `tensorflow` before `tensorflow-datasets` and `tensorflow_hub`)
 
 
 ## Converting your Own Dataset to RLDS
